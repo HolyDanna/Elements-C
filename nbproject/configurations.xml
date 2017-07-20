@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>affichage.h</itemPath>
+      <itemPath>chargementMap.h</itemPath>
+      <itemPath>deplacement.h</itemPath>
+      <itemPath>interaction.h</itemPath>
+      <itemPath>maps.h</itemPath>
+      <itemPath>menu.h</itemPath>
+      <itemPath>script.h</itemPath>
+      <itemPath>variablesGlobales.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>map_0_6</itemPath>
+      <itemPath>map_10_7</itemPath>
+      <itemPath>map_10_8</itemPath>
+      <itemPath>map_10_9</itemPath>
+      <itemPath>map_1_6</itemPath>
+      <itemPath>map_2_6</itemPath>
+      <itemPath>map_3_13</itemPath>
+      <itemPath>map_3_2</itemPath>
+      <itemPath>map_3_3</itemPath>
+      <itemPath>map_3_4</itemPath>
+      <itemPath>map_3_6</itemPath>
+      <itemPath>map_3_7</itemPath>
+      <itemPath>map_4_1</itemPath>
+      <itemPath>map_4_10</itemPath>
+      <itemPath>map_4_11</itemPath>
+      <itemPath>map_4_12</itemPath>
+      <itemPath>map_4_13</itemPath>
+      <itemPath>map_4_2</itemPath>
+      <itemPath>map_4_3</itemPath>
+      <itemPath>map_4_4</itemPath>
+      <itemPath>map_4_7</itemPath>
+      <itemPath>map_4_9</itemPath>
+      <itemPath>map_5_0</itemPath>
+      <itemPath>map_5_1</itemPath>
+      <itemPath>map_5_2</itemPath>
+      <itemPath>map_5_3</itemPath>
+      <itemPath>map_5_4</itemPath>
+      <itemPath>map_5_5</itemPath>
+      <itemPath>map_5_6</itemPath>
+      <itemPath>map_5_7</itemPath>
+      <itemPath>map_5_8</itemPath>
+      <itemPath>map_5_9</itemPath>
+      <itemPath>map_6_2</itemPath>
+      <itemPath>map_6_3</itemPath>
+      <itemPath>map_6_4</itemPath>
+      <itemPath>map_6_7</itemPath>
+      <itemPath>map_7_7</itemPath>
+      <itemPath>map_8_7</itemPath>
+      <itemPath>map_8_8</itemPath>
+      <itemPath>map_8_9</itemPath>
+      <itemPath>map_9_7</itemPath>
+      <itemPath>map_9_9</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>affichage.c</itemPath>
+      <itemPath>chargementMap.c</itemPath>
+      <itemPath>deplacement.c</itemPath>
+      <itemPath>interaction.c</itemPath>
+      <itemPath>jeu.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>menu.c</itemPath>
+      <itemPath>script.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandLine>-Wall -Werror</commandLine>
+        </cTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>-lSDL2</linkerOptionItem>
+            <linkerOptionItem>-lSDL2_image</linkerOptionItem>
+            <linkerOptionItem>-lSDL2_ttf</linkerOptionItem>
+            <linkerOptionItem>-lSDL2_mixer</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="affichage.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="affichage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chargementMap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="chargementMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="deplacement.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="deplacement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="interaction.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="interaction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jeu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="map_0_6" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_10_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_10_8" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_10_9" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_1_6" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_2_6" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_13" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_2" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_3" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_4" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_6" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_1" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_10" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_11" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_12" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_13" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_2" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_3" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_4" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_9" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_0" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_1" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_2" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_3" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_4" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_5" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_6" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_8" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_9" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_6_2" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_6_3" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_6_4" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_6_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_7_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_8_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_8_8" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_8_9" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_9_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_9_9" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="maps.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="menu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="script.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="script.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="variablesGlobales.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="affichage.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="affichage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chargementMap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="chargementMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="deplacement.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="deplacement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="interaction.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="interaction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jeu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="map_0_6" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_10_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_10_8" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_10_9" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_1_6" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_2_6" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_13" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_2" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_3" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_4" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_6" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_3_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_1" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_10" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_11" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_12" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_13" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_2" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_3" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_4" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_4_9" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_0" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_1" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_2" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_3" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_4" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_5" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_6" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_8" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_5_9" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_6_2" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_6_3" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_6_4" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_6_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_7_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_8_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_8_8" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_8_9" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_9_7" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="map_9_9" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="maps.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="menu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="script.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="script.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="variablesGlobales.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
